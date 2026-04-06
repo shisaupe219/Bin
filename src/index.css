@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+.export-mode * {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  animation: none !important;
+  transition: none !important;
+}
+
+.export-mode section {
+  background-color: white !important;
+}
+
+.break-before-page {
+  break-before: page;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e2e8f0;
+}
